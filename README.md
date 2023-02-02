@@ -9,7 +9,8 @@
 ## In-Class Assignments
 - [ICA1](shwi6838.github.io/ica/ica1.html)
 - [ICA2](shwi6838.github.io/ica/ica2.pdf)
-- ICA3
+- [ICA3a](shwi6838.github.io/ica/ica3a.html)
+- [ICA3b](shwi6838.github.io/ica/ica3-part2/assets/ica3b.html)
 - ICA4
 - ICA5
 - ICA6
