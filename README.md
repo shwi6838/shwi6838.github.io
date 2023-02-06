@@ -27,7 +27,7 @@
 ## Weekly Assignments
 - [WA1](shwi6838.github.io/wa/wa1.html)
 - [WA2](shwi6838.github.io/wa/wa2.html)
-- WA3
+- [WA3](shwi6838.github.io/wa/wa3.html)
 - WA4
 - WA5
 - WA6
