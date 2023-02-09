@@ -1,0 +1,106 @@
+/* General styles - put these straight into your stylesheet */
+
+body {
+    margin: 0;
+  }
+  
+  html {
+    font-family: 'Helvetica neue', Arial, 'sans serif';
+    font-size: 10px;
+    background-color: #ccc;
+  }
+  
+  /* Selectors to be matched up with rulesets
+  
+  .card article img
+  .card footer
+  .card header
+  .card
+  
+  Rulesets to be matched up with selectors */
+  
+  .card {
+    width: 35em;
+    height: 22em;
+    margin: 5em auto;
+    background-color: red;
+    border: 0.2em solid black;
+    border-radius: 1.5em;
+  }
+  
+  .card header{
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0));
+    border-radius: 1.5em 1.5em 0 0;
+  }
+  
+  .card footer{
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0), rgba(0,0,0,0.1));
+    border-radius: 0 0 1.5em 1.5em;
+  }
+  
+  .card article img{
+    max-height: 100%;
+    max-width: 40%;
+    float: right;
+  }
+
+  .card2 {
+    width: 35em;
+    height: 22em;
+    margin: 5em auto;
+    background-color: darkcyan;
+    border: 0.2em solid black;
+    border-radius: 1.5em;
+  }
+  
+  .card2 header{
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0));
+    border-radius: 1.5em 1.5em 0 0;
+  }
+  
+  .card2 footer{
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0), rgba(0,0,0,0.1));
+    border-radius: 0 0 1.5em 1.5em;
+  }
+  
+  .card2 article img{
+    max-height: 100%;
+    max-width: 40%;
+    float: right;
+  }
+
+  /*New Rulesets*/
+  .HeadandFoot{
+    height:3em;
+    padding:1em;
+  }
+
+  article p{
+    margin: 0;
+    padding:1em;
+    color: lightgrey;
+  }
+
+  .card2 article p{
+    margin: 0;
+    padding:1em;
+    color: lightgoldenrodyellow;
+  }
+
+  article{
+    height: 12em;
+    background-color: rgba(0,0,0,0.2);
+  }
+
+  h2{
+    font-size: 2em;
+    margin: 0;
+    height: 1.5em;
+  }
+
+  footer p{
+    font-size: 1.5em;
+    height: 1.5em;
+  }
+
+
