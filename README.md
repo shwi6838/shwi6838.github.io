@@ -12,7 +12,7 @@
 - [ICA3a](shwi6838.github.io/ica/ica3a.html)
 - [ICA3b](shwi6838.github.io/ica/ica3-part2/assets/ica3b.html)
 - [ICA4](shwi6838.github.io/ica/ica4.html)
-- ICA5
+- [ICA5](shwi6838.github.io/ica/ica5/ica5.html)
 - ICA6
 - ICA7
 - ICA8
