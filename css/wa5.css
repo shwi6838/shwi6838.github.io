@@ -1,0 +1,83 @@
+html body{
+    background-image: url("/img/carsoccer.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ScoreCard{
+    position: fixed center;
+    width: 50%;
+    height: 45px;
+    margin: auto;
+    padding: 1%;
+    background-color: grey;
+    background: linear-gradient(to bottom, grey, rgba(0,0,0,0.1)), linear-gradient(to right, rgba(0,0,0,0.1) 60% ,red), linear-gradient(to left, rgba(0,0,0,0.1) 60% , blue);
+}
+
+#Title {
+    position: absolute;
+    top: 1mm;
+    font-size: 10px;
+    text-align: center;
+    width: 50%;
+    color: white;
+}
+
+#Time{
+    font-size: 25px;
+    position: absolute;
+    text-align: center;
+    width: 50%;
+    top: 1px;
+    color: white;
+}
+
+#red_score {
+    margin: auto;
+    text-align: right;
+    position: absolute;
+    width: 50%;
+    height:5em;
+    color: white;
+}
+
+#blue_score {
+    margin:auto;
+    text-align: left;
+    position: absolute;
+    width: 50%;
+    height:5em;
+    color: white;
+}
+
+.Banner{
+    position: fixed;
+    width: 100%;
+    left: 0%;
+    right: 95%;
+    bottom: 0%;
+    padding: 1%;
+    height: 20px;
+    margin: auto;
+    background-color: darkslategrey;
+    border: 0.2em solid black;
+}
+
+#Channel{
+    margin:auto;
+    text-align: right;
+    width: 95%;
+    position: absolute;
+    top: 1px;
+    color: white;
+}
+
+#Teams{
+    margin: auto;
+    text-align: left;
+    position: absolute;
+    width: 100%;
+    top: 1px;
+    color: white;
+}
