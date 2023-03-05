@@ -1,0 +1,67 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: mediumseagreen;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav{
+    height: 50vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:20px;
+    background-color: goldenrod;
+    transition: background-color 1s;
+}
+nav a{
+    width:10vw;
+    text-align: center;
+    text-decoration: none;
+    color:darkred;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav:hover{
+    background-color: khaki;
+}
+
+img{
+    width:30vw;
+    height: 40vh;
+    transition: transform 2s;
+}
+img:hover{
+    transform: scale(1.5) translateY(80px);
+}
+
+#red-ball{
+    background-color: darkblue;
+    width: 20px;
+    height:20px;
+    border-radius: 50%;
+    position: absolute;
+    left:5vw;
+    top:0;
+    animation: ballmove 10s linear 0.5s infinite;
+}
+
+@keyframes ballmove{
+    0% {
+        transform: translateX(0px);
+      }
+    25% {
+        transform: translateY(700px) scale(1.6);
+        
+      }
+    50%{
+        transform: translateY(700px) translateX(1200px);
+    }
+    75%{
+        transform: translateX(1200px) translateY(0px) scale(1.6);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
