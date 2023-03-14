@@ -1,0 +1,113 @@
+body{
+    align-items: center;
+    background-color: darkslategray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 40px;
+}
+.logo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 200%;
+    padding: 50px 20px;
+    margin: 0 auto;
+    max-width: 980px;
+    color: aquamarine;
+  }
+nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:20px;
+    background-color: goldenrod;
+    transition: background-color 1s;
+    border-radius: 20%;
+    position: sticky;
+    top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+nav a{
+    display:flex;
+    max-width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color:rgb(83, 3, 3);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav:hover{
+    background-color: lightgreen;
+}
+@media only screen and (max-width: 600px){
+    nav a{
+        transform: scale(.6);
+        overflow: visible;
+        
+    }
+}
+.grid {
+    margin-top: 15px;
+    position: absolute;
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 980px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.feature {
+    float: right;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    max-width:30%;
+    display:block;
+}
+#res {
+    margin-top: 70px;
+    padding: 10px;
+    background-color: lightgreen;
+    border-style: solid;
+    border-color: green;
+}
+.Resume {
+    list-style: none;
+    margin:0px;
+    display: grid;
+    gap: 1px;
+    grid-template-columns: 50% 50%;
+  }
+#intro{
+    padding: 10px;
+    margin-top: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-color: blue;
+    border-style: solid;
+    background-color: lightcyan;
+}
+#edu{
+    padding: 10px;
+    margin-top: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightsalmon;
+    border-style: solid;
+    border-color: red;
+}
+.Hobbies {
+    list-style: none;
+    margin:0px;
+    display: grid;
+    gap: 1px;
+    grid-template-columns: 50% 50%;
+  }
+  #hob {
+    margin-top: 70px;
+    padding: 10px;
+    background-color: lightyellow;
+    border-style: solid;
+    border-color: gold;
+}
+footer{
+    align-items: center;
+    background-color: darkslategray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 40px;
+    color: gainsboro;
+}
+
