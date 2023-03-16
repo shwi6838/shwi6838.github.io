@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #button{
+            border: 10px solid darkmagenta;
+            border-radius: 20px;
+            background-color: magenta;
+            padding: 25px 50px;
+            box-shadow: 15px 10px 10px rgb(0,0,0);
+            width: 250px;
+            text-align: center;
+            font-size: 60px;
+        }
+        #button2{
+            position:absolute;
+            top: 400px;
+            border: 10px solid darkolivegreen;
+            border-radius: 20px;
+            background-color: greenyellow;
+            padding: 25px 50px;
+            box-shadow: 15px 10px 10px rgb(0,0,0);
+            width: 250px;
+            text-align: center;
+            font-size: 60px;
+        }
+    </style>
+</head>
+<body>
+    <div id="button">
+        <p>Click Me!</p>
+    </div>
+    <div id="button2">
+        <p>Click Me Too!</p>
+    </div>
+    <script>
+        console.log("Hello World!")
+        let btn = document.querySelector("#button");
+        let btn2 = document.querySelector("#button2");
+        function changeBtn() {
+            btn.textContent="Test";
+            btn.style.backgroundColor="darkmagenta";
+            btn.style.border = "2px solid magenta";
+            btn.style.color = "white";
+        }
+        btn.addEventListener("click", changeBtn);
+        
+        function changeBtn2() {
+            alert("You clicked the element!");
+            btn2.style.backgroundColor="darkolivegreen";
+            btn2.style.border = "2px solid greenyellow";
+            btn2.style.color = "darkblue";
+            btn2.style.borderRadius = "200px";
+        }
+        btn2.addEventListener("click", changeBtn2);
+    </script>
+</body>
+</html>
