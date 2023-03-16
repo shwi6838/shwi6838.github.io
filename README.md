@@ -2,8 +2,8 @@
 
 
 ## Projects
-- HTML
-- CSS
+- [HTML](shwi6838.github.io/html-midterm/page1.html)
+- [CSS](shwi6838.github.io/index.html)
 - JS
 
 ## In-Class Assignments
