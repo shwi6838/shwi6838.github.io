@@ -1,0 +1,50 @@
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 200%;
+    padding: 50px 20px;
+    margin: 0 auto;
+    max-width: 980px;
+    color: aquamarine;
+  }
+   body {
+    width: 640px;
+    margin: 0 auto;
+    background-color: darkslategray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 40px;
+  }
+  
+  .full-img {
+    position: relative;
+    display: block;
+    max-width: 640px;
+    max-height: 427px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 640px;
+    height: 427px;
+    background-color: rgba(0,0,0,0);
+  }
+  
+  button {
+    border: 0;
+    background: rgba(150,150,150,0.6);
+    text-shadow: 1px 1px 1px white;
+    border: 1px solid #999;
+    position: absolute;
+    cursor: pointer;
+    top: 2px;
+    left: 2px;
+  }
+  
+  .thumb-bar img {
+    display: block;
+    width: 20%;
+    float: left;
+    cursor: pointer;
+  }

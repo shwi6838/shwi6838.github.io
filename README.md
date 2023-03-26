@@ -34,7 +34,7 @@
 - [WA7](shwi6838.github.io/wa/wa7.html)
 - WA8
 - [WA9](shwi6838.github.io/wa/wa9.html)
-- WA10
+- [WA10](shwi6838.github.io/wa/wa10.html)
 - WA11
 - WA12
 - WA13
