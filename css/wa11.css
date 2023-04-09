@@ -1,0 +1,121 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: darkslategray;
+  }
+
+  .Info {
+    position: absolute;
+    left: 50%;
+    width: 800px;
+    top: 95%;
+    transform: translate(-50%, -50%);
+    background-color: antiquewhite;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+    padding: 2px;
+  }
+  
+  .app {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+  }
+  
+  #Riddler {
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #ebebeb;
+  }
+  
+  .quotes {
+    padding: 20px 50px;
+    min-height: 200px;
+  }
+  
+  .riddle-text {
+    padding-bottom: 20px;
+    font-size: 25px;
+    color: black;
+  }
+  
+  .controls {
+    width: 100%;
+    padding: 20px 50px;
+  }
+  
+  .button {
+    display: block;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+  }
+  
+  .answer {
+    background-color: #1da1f2;
+    text-decoration: none;
+    margin-bottom: 15px;
+  }
+  
+  .answer:hover {
+    background-color: #1e7fbb;
+  }
+  
+  .new-riddle {
+    background-color: forestgreen;
+    margin-bottom: 15px;
+  }
+  
+  .new-riddle:hover {
+    background-color: darkgreen;
+  }
+  
+  .new-riddle:disabled {
+    background-color: rgb(212, 228, 185);
+    color: #666666;
+    cursor: not-allowed;
+  }
+
+  .setting {
+    background-color:rgb(63, 58, 56);
+    text-decoration: none;
+  }
+
+  .setting:hover {
+    background-color: rgb(43, 39, 39)
+  }
+  
+  @media screen and (max-width: 600px) {
+    .app {
+      width: 100%;
+    }
+    .riddle-text {
+      font-size: 18px;
+    }
+  }
+  
