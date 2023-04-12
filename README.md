@@ -19,7 +19,7 @@
 - [ICA9](shwi6838.github.io/ica/ica9.html)
 - [ICA10](shwi6838.github.io/ica/ica10.html)
 - [ICA11](shwi6838.github.io/ica/ica11.html)
-- ICA12
+- [ICA12](shwi6838.github.io/ica/ica12.html)
 - ICA13
 - ICA14
 - ICA15
