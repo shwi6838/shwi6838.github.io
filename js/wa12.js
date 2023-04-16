@@ -2,8 +2,7 @@
 let Employees = '{"employees" : [' +
     '{ "firstName":"Sam", "department":"Tech", "designation":"Manager", "salary":40000, "raise-eligible":true },' +
     '{ "firstName":"Mary", "department":"Finance", "designation":"Trainee", "salary":18500, "raise-eligible":true },' +
-    '{ "firstName":"Bill", "department":"HR", "designation":"Executive", "salary":21200, "raise-eligible":false },' +
-   ']}';
+    '{ "firstName":"Bill", "department":"HR", "designation":"Executive", "salary":21200, "raise-eligible":false } ]}';
 
 const obj = JSON.parse(Employees);
 console.log("Problem 1");
@@ -11,8 +10,7 @@ console.log(obj);
 
 //Problem 2
 let Companies = '{"companies" : [' +
-    '{ "companyName": "TechStars", "website":"www.techstars.com" },' +
-    ']}';
+    '{ "companyName": "TechStars", "website":"www.techstars.com" } ]}';
 const obj2 = JSON.parse(Companies);
 obj2['employees'] = obj['employees'];
 console.log("Problem 2");
