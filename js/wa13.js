@@ -5,37 +5,43 @@ function check() {
 }
 
 function submit() {
-    alert(output.textContent);
+    alert("Are You Ok With This Volume: " + outputInt + " ?");
+    // alert(output.textContent);
 }
 
-function reset() {
-    outputInt = 0;
+function mute() {
+    outputInt = randomNumber(0,3);
     output.textContent = outputInt;
+    console.log("muteed");
 }
 
 function minus() {
-    if (outputInt > 0) {
-    outputInt -=1;
-    output.textContent = outputInt; }
-    
+    const Rnum = randomNumber(0, 30);
+    if ((outputInt - Rnum) > 0) 
+    {
+        outputInt -= Rnum;
+        output.textContent = outputInt; 
+    } 
 }
 
 function plus() {
-    if (outputInt < 100) {
-    outputInt +=1;
-    output.textContent = outputInt;
+    const Rnum = randomNumber(0, 30);
+    if ((outputInt + Rnum) < 100) 
+    {
+        outputInt += Rnum;
+        output.textContent = outputInt;
     }
 }
 
-function random() {
-    outputInt = randomNumber(0, 100);
-    output.textContent = outputInt;
-}
+// function random() {
+//     outputInt = randomNumber(0, 100);
+//     output.textContent = outputInt;
+// }
 
 function randomNumber(min, max) {
     const num = Math.floor(Math.random() * (max - min + 1)) + min;
     return num;
-  }
+}
 
 
 
@@ -45,8 +51,8 @@ console.log(outputInt);
 
 const minusButton = document.querySelector('.minus-button').addEventListener('click', minus);
 const plusButton = document.querySelector('.plus-button').addEventListener('click', plus);
-const resetButton = document.querySelector('.reset-button').addEventListener('click', reset);
-const randomButton = document.querySelector('.random-button').addEventListener('click', random);
+const resetButton = document.querySelector('.mute-button').addEventListener('click', mute);
+// const randomButton = document.querySelector('.random-button').addEventListener('click', random);
 const submitButton = document.querySelector('.submit-button').addEventListener('click', submit);
 
 
@@ -63,12 +69,12 @@ function updateOutput() {
 */
 
 
-var slider = document.getElementById("myRange");
-var sliderSubmit = document.querySelector(".slider-submit-button").addEventListener('click', update);
-var sliderOutput = document.querySelector(".slider-output");
+// var slider = document.getElementById("myRange");
+// var sliderSubmit = document.querySelector(".slider-submit-button").addEventListener('click', update);
+// var sliderOutput = document.querySelector(".slider-output");
 
 
 // Update the current slider value (each time you drag the slider handle)
-function update() {
-  sliderOutput.textContent = slider.value;
-}
+// // function update() {
+//   sliderOutput.textContent = slider.value;
+// }

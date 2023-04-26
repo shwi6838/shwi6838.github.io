@@ -1,0 +1,70 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: darkslategray;
+}
+
+div{
+    position: absolute;
+    align-items: center;
+    top: 30%;
+    left: 38%;
+    width: 300px;
+    border: 5px;
+    background-color: rgb(196, 136, 111);
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+
+.Para{
+    position: absolute;
+    color: bisque;
+    margin: 15px;
+    margin-left: 38px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.output{
+    text-align: center;
+    position: relative;
+    margin:35px;
+    color: gold;
+    text-shadow: 5px;
+    font-size: 100px;
+}
+
+form{
+    align-items: center;
+    margin: 20px;
+}
+
+.minus-button{
+    background-color: cornflowerblue;
+    font-size: 20px;
+}
+
+.plus-button{
+    background-color: cornflowerblue;
+    font-size: 20px;
+}
+
+.mute-button{
+    background-color: cornflowerblue;
+    font-size: 20px;
+}
+
+.submit-button{
+    background-color: cornflowerblue;
+    font-size: 20px;
+}
+
+.message{
+    color: bisque;
+    margin: 15px;
+    margin-left: 15px;
+    text-align: center;
+    font-size: 24px;
+}
+
+
