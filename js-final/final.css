@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: darkslategray;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    max-width: 1300px;
+  }
+  
+  .todo-list-container {
+    width: 50%;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  
+  .suggestions-list-container {
+    width: 50%;
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: beige;
+  }
+  
+  form {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: whitesmoke;
+  }
+  
+  li input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  li button {
+    margin-left: auto;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+
+#refresh{
+    background-color: plum;
+    color: white;
+}
+
