@@ -4,7 +4,7 @@
 ## Projects
 - [HTML](shwi6838.github.io/html-midterm/page1.html)
 - [CSS](shwi6838.github.io/index.html)
-- JS
+- [JS](https://shwi6838.github.io/js-final/final.html)
 
 ## In-Class Assignments
 - [ICA1](shwi6838.github.io/ica/ica1.html)
